@@ -2,9 +2,11 @@
 
 namespace App\Controller;
 
+use Psr\Cache\CacheItemInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Contracts\Cache\CacheInterface;
 use function Symfony\Component\String\u;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 class VinylController extends AbstractController
@@ -33,24 +35,30 @@ class VinylController extends AbstractController
     }
 
     #[Route('/browse/{slug}', name: 'app_browse')]
-    public function browse(HttpClientInterface $httpClient, string $slug = null): Response
+    public function browse(HttpClientInterface $httpClient, CacheInterface $cache, string $slug = null): Response
     {
         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
         $responce = $this->client->request('GET', 'https://github.com/pronto609/symfonyFundamentals/blob/main/mixes.json')->toArray();
-        $mixes = json_decode(implode('',$responce['payload']['blob']['rawLines']));
-        $res = [];
-        array_walk( $mixes,function ($item) use (&$res) {
-            $track = [];
-            $track['title'] = $item->title;
-            $track['trackCount'] = $item->trackCount;
-            $track['genre'] = $item->genre;
 
-            $track['createdAt'] = $item->createdAt->date;
-            $res[] = $track;
+        $mixes = $cache->get('mixes_data', function (CacheItemInterface $cacheItem) use ($responce){
+            $cacheItem->expiresAfter(5);
+            $mixes = json_decode(implode('',$responce['payload']['blob']['rawLines']));
+            $res = [];
+            array_walk( $mixes,function ($item) use (&$res) {
+                $track = [];
+                $track['title'] = $item->title;
+                $track['trackCount'] = $item->trackCount;
+                $track['genre'] = $item->genre;
+
+                $track['createdAt'] = $item->createdAt;
+                $res[] = $track;
+            });
+            return $res;
         });
+
         return $this->render('vinyl/browse.html.twig', [
             'genre' => $genre,
-            'mixes' => $res,
+            'mixes' => $mixes,
         ]);
     }
 

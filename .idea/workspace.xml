@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mixes.json" beforeDir="false" afterPath="$PROJECT_DIR$/mixes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/VinylController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/VinylController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="dev.fundam.loc" id="0787ed8b-8ef1-46db-bda2-509cd227a652" name="dev.fundam.loc" />
@@ -129,19 +123,33 @@
       <option name="presentableId" value="Default" />
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
-      <workItem from="1695454219776" duration="4866000" />
+      <workItem from="1695454219776" duration="6152000" />
     </task>
+    <task id="LOCAL-00001" summary="commit new dependancies">
+      <created>1695459124288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695459124288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="commit new dependancies" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit new dependancies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Controller/VinylController.php</url>
-          <line>50</line>
+          <line>56</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
