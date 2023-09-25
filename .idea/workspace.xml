@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="Add Caching">
-      <change afterPath="$PROJECT_DIR$/src/Service/MixRepository.php" afterDir="false" />
+    <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SongController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SongController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/VinylController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/VinylController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/MixRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MixRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
-      <workItem from="1695454219776" duration="13007000" />
+      <workItem from="1695454219776" duration="16252000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695530756405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add config services">
+      <created>1695537611584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695537611584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,14 +161,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="commit new dependancies" />
     <MESSAGE value="Add Caching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Caching" />
+    <MESSAGE value="Add config services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add config services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Controller/VinylController.php</url>
-          <line>43</line>
+          <line>48</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

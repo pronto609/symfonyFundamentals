@@ -12,7 +12,9 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 class VinylController extends AbstractController
 {
     public function __construct(
-        private HttpClientInterface $client
+        private readonly HttpClientInterface $client,
+        private readonly MixRepository $mixRepository,
+        private readonly bool $isDebug,
     ) {
     }
 
@@ -35,11 +37,14 @@ class VinylController extends AbstractController
     }
 
     #[Route('/browse/{slug}', name: 'app_browse')]
-    public function browse(MixRepository $mixRepository, string $slug = null): Response
+    public function browse(
+        string $slug = null
+    ): Response
     {
+//        dd($this->isDebug);
         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
 
-        $mixes = $mixRepository->findAll($genre);
+        $mixes = $this->mixRepository->findAll($genre);
 
         return $this->render('vinyl/browse.html.twig', [
             'genre' => $genre,
