@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/VinylController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/VinylController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/MixRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MixRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
-      <workItem from="1695454219776" duration="16252000" />
+      <workItem from="1695454219776" duration="17142000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695537611584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add yaml configuration">
+      <created>1695617738253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695617738253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +167,8 @@
     <MESSAGE value="commit new dependancies" />
     <MESSAGE value="Add Caching" />
     <MESSAGE value="Add config services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add config services" />
+    <MESSAGE value="add yaml configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add yaml configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
