@@ -27,6 +27,7 @@ class MixRepository
         /*$output = new BufferedOutput();
         $this->twigDebugCommand->run(new ArrayInput([]), $output);
         dd($output);*/
+        dd($this->githubContentClient);
 
         $responce = $this->githubContentClient->request('GET', '/pronto609/symfonyFundamentals/blob/main/mixes.json')->toArray();
         $mixes =  $this->cache->get('mixes_data', function (CacheItemInterface $cacheItem) use ($responce){
