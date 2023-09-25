@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
-      <workItem from="1695454219776" duration="17142000" />
+      <workItem from="1695454219776" duration="17613000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695617738253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add local variables">
+      <created>1695618798405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695618798405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +173,8 @@
     <MESSAGE value="Add Caching" />
     <MESSAGE value="Add config services" />
     <MESSAGE value="add yaml configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add yaml configuration" />
+    <MESSAGE value="add local variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="add local variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
