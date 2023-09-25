@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Command/TalkRoMeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/TalkRoMeCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/MixRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MixRepository.php" afterDir="false" />
-    </list>
+    <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +122,7 @@
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
       <workItem from="1695454219776" duration="17613000" />
-      <workItem from="1695618995815" duration="2986000" />
+      <workItem from="1695618995815" duration="3746000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -184,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695621087966</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add custom functionality Command">
+      <created>1695622026660</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695622026660</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +204,8 @@
     <MESSAGE value="add sercets value" />
     <MESSAGE value="add prod sercet value, ovaride them by .env.local" />
     <MESSAGE value="add console command" />
-    <option name="LAST_COMMIT_MESSAGE" value="add console command" />
+    <MESSAGE value="add custom functionality Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom functionality Command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
