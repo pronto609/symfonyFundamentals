@@ -28,7 +28,7 @@
         <div class="row">
             {% for mix in mixes %}
             <a href="{{ path('app_mix_show', {
-                id: mix.id
+                slug: mix.slug
             }) }}"
                     class="col col-md-4">
                 <div class="mixed-vinyl-container p-3 text-center">

@@ -41,13 +41,13 @@ class MixController extends AbstractController
         ));
     }
 
-    #[Route('mix/{id}', name: 'app_mix_show')]
+    #[Route('mix/{slug}', name: 'app_mix_show')]
     public function show(VinylMix $mix)
     {
         return $this->render('mix/show.html.twig', ['mix' => $mix]);
     }
 
-    #[Route('/mix/{id}/vote', name: 'app_mix_vote', methods: ['POST'])]
+    #[Route('/mix/{slug}/vote', name: 'app_mix_vote', methods: ['POST'])]
     public function vote(VinylMix $mix, Request $request, EntityManagerInterface $entityManager): Response
     {
 
@@ -61,7 +61,7 @@ class MixController extends AbstractController
 
         $this->addFlash('success', 'Vote counted!');
         return $this->redirectToRoute('app_mix_show', [
-            'id' => $mix->getId()
+            'slug' => $mix->getSlug()
         ]);
     }
 }

@@ -16,7 +16,7 @@
                 {{ mix.votesString }} votes
 
                 <form action="{{ path('app_mix_vote', {
-                    id: mix.id
+                    slug: mix.slug
                 }) }}" method="POST">
                     <button
                             name="direction"
