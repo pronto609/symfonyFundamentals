@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230926052053.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/VinylMix.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/VinylMix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20230926051229.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20230926052053.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
   <component name="PhpServers">
     <servers>
       <server host="dev.fundam.loc" id="0787ed8b-8ef1-46db-bda2-509cd227a652" name="dev.fundam.loc" />
+      <server host="127.0.0.1:8000" id="c7889b1d-1415-4657-b390-cf1b7302888d" name="127.0.0.1:8000" port="8000" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
@@ -143,7 +145,7 @@
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
       <workItem from="1695454219776" duration="17613000" />
-      <workItem from="1695618995815" duration="9520000" />
+      <workItem from="1695618995815" duration="13268000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695705192219</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add new property and migration">
+      <created>1695706306068</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695706306068</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +259,8 @@
     <MESSAGE value="add Twig extension" />
     <MESSAGE value="add doctrine packege" />
     <MESSAGE value="Add Entity and Migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Entity and Migration" />
+    <MESSAGE value="Add new property and migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new property and migration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +269,36 @@
           <url>file://$PROJECT_DIR$/src/Controller/VinylController.php</url>
           <line>48</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Mapping/ClassMetadataFactory.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php</url>
+          <line>614</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php</url>
+          <line>830</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/dbal/src/Connection.php</url>
+          <line>315</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/dbal/src/Connection.php</url>
+          <line>407</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/dbal/src/Driver/PDO/PgSQL/Driver.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
