@@ -2,7 +2,7 @@
 
 namespace App\Command;
 
-use App\Service\MixRepository;
+use App\Repository\VinylMixRepository;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -18,7 +18,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 class TalkRoMeCommand extends Command
 {
     public function __construct(
-        private readonly MixRepository $mixRepository,
+        private readonly VinylMixRepository $mixRepository,
         string $name = null
     ) {
         parent::__construct($name);

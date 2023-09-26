@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/TalkRoMeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/TalkRoMeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MixController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MixController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/VinylController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/VinylController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/VinylMix.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/VinylMix.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vinyl/browse.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vinyl/browse.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,7 @@
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
       <workItem from="1695454219776" duration="17613000" />
-      <workItem from="1695618995815" duration="14805000" />
+      <workItem from="1695618995815" duration="16338000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695710078308</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add virtual properties to entity and twig">
+      <created>1695711644181</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695711644181</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,14 +283,15 @@
     <MESSAGE value="Add new property and migration" />
     <MESSAGE value="Switch to mysql" />
     <MESSAGE value="Switch to mysql 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch to mysql 2" />
+    <MESSAGE value="add virtual properties to entity and twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="add virtual properties to entity and twig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Controller/VinylController.php</url>
-          <line>54</line>
+          <line>49</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

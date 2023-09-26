@@ -2,21 +2,17 @@
 
 namespace App\Controller;
 
-use App\Entity\VinylMix;
 use App\Repository\VinylMixRepository;
-use App\Service\MixRepository;
-use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Contracts\Cache\CacheInterface;
 use function Symfony\Component\String\u;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
+use Symfony\Component\HttpFoundation\Request;
 class VinylController extends AbstractController
 {
     public function __construct(
         private readonly HttpClientInterface $client,
-        private readonly MixRepository $mixRepository,
         private readonly bool $isDebug,
     ) {
     }
@@ -47,10 +43,9 @@ class VinylController extends AbstractController
     {
 //        dd($this->isDebug);
         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
+        $filter = $slug ? ['genre' => str_replace('-', '_', $slug)] : [];
+        $mixes = $vinylMixRepository->findBy($filter, ['votes' => 'DESC']);
 
-        $mixes = $vinylMixRepository->findBy([], ['votes' => 'DESC']);
-
-//        dd($vinylMixRepository);
 
         return $this->render('vinyl/browse.html.twig', [
             'genre' => $genre,
