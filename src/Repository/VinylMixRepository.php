@@ -21,6 +21,17 @@ class VinylMixRepository extends ServiceEntityRepository
         parent::__construct($registry, VinylMix::class);
     }
 
+    /**
+     * @return VinylMix[] Returns an array of VinylMix objects
+     */
+    public function findAllOrderByVotes(): array
+    {
+        return $this->createQueryBuilder('mix')
+            ->orderBy('mix.votes', 'DESC')
+            ->getQuery()
+            ->getResult();
+    }
+
 //    /**
 //     * @return VinylMix[] Returns an array of VinylMix objects
 //     */
