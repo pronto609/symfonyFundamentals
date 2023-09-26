@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/mix/_recordSwg.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mix/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MixController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MixController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VinylController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/VinylController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/VinylMixRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/VinylMixRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vinyl/browse.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vinyl/browse.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vinyl/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vinyl/homepage.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +149,7 @@
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
       <workItem from="1695454219776" duration="17613000" />
-      <workItem from="1695618995815" duration="16695000" />
+      <workItem from="1695618995815" duration="20356000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -263,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695736539727</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add custom filter in Repository">
+      <created>1695736942737</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695736942737</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +303,8 @@
     <MESSAGE value="Switch to mysql 2" />
     <MESSAGE value="add virtual properties to entity and twig" />
     <MESSAGE value="add filtering from database" />
-    <option name="LAST_COMMIT_MESSAGE" value="add filtering from database" />
+    <MESSAGE value="Add custom filter in Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom filter in Repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,34 +315,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Mapping/ClassMetadataFactory.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php</url>
-          <line>614</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php</url>
-          <line>830</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/doctrine/dbal/src/Connection.php</url>
-          <line>315</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/doctrine/dbal/src/Connection.php</url>
-          <line>407</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/vendor/doctrine/dbal/src/Driver/PDO/PgSQL/Driver.php</url>
           <line>33</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Repository/VinylMixRepository.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
