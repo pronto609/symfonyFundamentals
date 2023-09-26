@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20230926052053.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/VinylMix.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/VinylMix.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +143,7 @@
       <updated>1695452690279</updated>
       <workItem from="1695452691774" duration="1521000" />
       <workItem from="1695454219776" duration="17613000" />
-      <workItem from="1695618995815" duration="8377000" />
+      <workItem from="1695618995815" duration="9520000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695647712064</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Entity and Migration">
+      <created>1695705192219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695705192219</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +249,8 @@
     <MESSAGE value="add custom functionality Command" />
     <MESSAGE value="add Twig extension" />
     <MESSAGE value="add doctrine packege" />
-    <option name="LAST_COMMIT_MESSAGE" value="add doctrine packege" />
+    <MESSAGE value="Add Entity and Migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Entity and Migration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
