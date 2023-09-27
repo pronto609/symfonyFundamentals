@@ -47,14 +47,13 @@ final class VinylMixFactory extends ModelFactory
     protected function getDefaults(): array
     {
         return [
-            'title' => self::faker()->text(255),
-            'description' => self::faker()->text(500),
-            'trackCount' => self::faker()->randomNumber(),
-            'genre' => self::faker()->text(255),
+            'title' => self::faker()->words(5, true),
+            'description' => self::faker()->paragraph(),
+            'trackCount' => self::faker()->numberBetween(5, 20),
+            'genre' => self::faker()->randomElement(['pop', 'rock', 'heavy_metal']),
             'createdAt' => self::faker()->dateTime(),
-            'votes' => self::faker()->randomNumber(2),
+            'votes' => self::faker()->numberBetween(-50, 50),
             'updatedAt' => self::faker()->dateTime(),
-            'slug' => self::faker()->slug(),
         ];
     }
 
