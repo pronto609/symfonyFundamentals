@@ -17,6 +17,14 @@ framework:
     php_errors:
         log: true
 
+    http_client:
+        scoped_clients:
+            githubContentClient:
+                base_uri: https://github.com
+                headers:
+                    Authorization: 'Token %env(GITHUB_TOKEN)%'
+
+
 when@test:
     framework:
         test: true
