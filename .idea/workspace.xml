@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MixController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MixController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/VinylMix.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/VinylMix.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vinyl/browse.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vinyl/browse.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/zenstruck_foundry.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/VinylMixFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20230926185117.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20230926185117.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +120,13 @@
       <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
       <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
       <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/zenstruck/assert" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/zenstruck/foundry" />
+      <path value="$PROJECT_DIR$/vendor/zenstruck/callback" />
     </include_path>
   </component>
   <component name="ProjectId" id="2Vmsf9p5BN359aTgQKMQDJhyIs9" />
@@ -307,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695754081818</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add slug to the route">
+      <created>1695755344630</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695755344630</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +357,8 @@
     <MESSAGE value="fix composer, add autowaring sension extra bandl" />
     <MESSAGE value="add votes form" />
     <MESSAGE value="add timestambable via composer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add timestambable via composer" />
+    <MESSAGE value="add slug to the route" />
+    <option name="LAST_COMMIT_MESSAGE" value="add slug to the route" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -357,6 +377,16 @@
           <url>file://$PROJECT_DIR$/src/Repository/VinylMixRepository.php</url>
           <line>29</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Factory/VinylMixFactory.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,6 +2,8 @@
 
 namespace App\DataFixtures;
 
+use App\Entity\VinylMix;
+use App\Factory\VinylMixFactory;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
@@ -9,9 +11,8 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        // $product = new Product();
-        // $manager->persist($product);
-
-        $manager->flush();
+//        VinylMixFactory::createOne();
+        VinylMixFactory::createMany(10);
     }
+
 }

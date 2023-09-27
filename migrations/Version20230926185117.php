@@ -22,7 +22,6 @@ final class Version20230926185117 extends AbstractMigration
         // this up() migration is auto-generated, please modify it to your needs
         $this->addSql('ALTER TABLE vinyl_mix ADD slug VARCHAR(100) NOT NULL');
         $this->addSql('CREATE UNIQUE INDEX UNIQ_38F28AFB989D9B62 ON vinyl_mix (slug)');
-        $this->addSql("UPDATE vinyl_mix SET slug=CONCAT(REPLACE(LOWER(title), ' ', '_'), '-', id)");
     }
 
     public function down(Schema $schema): void
