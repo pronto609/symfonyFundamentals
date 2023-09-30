@@ -964,17 +964,21 @@
     error-stack-parser "^2.0.0"
     string-width "^4.2.3"
 
-"@symfony/stimulus-bridge@^3.0.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@symfony/stimulus-bridge/-/stimulus-bridge-3.1.0.tgz#fcca15b09af5ed346e9b94f9e5770fd3994287a8"
-  integrity sha512-24ENJnGm7KrXsBWuOtg+Av5Rdt/EYravv2AthOKYIIXzd3FhygRAjOdbJicOv1nJOGS0gGqeBme57QEOoG86bw==
+"@symfony/stimulus-bridge@^3.2.0":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@symfony/stimulus-bridge/-/stimulus-bridge-3.2.2.tgz#afc1918f82d78cb2b6e299285c54094aa7f53696"
+  integrity sha512-kIaUEGPXW7g14zsHkIvQWw8cmfCdXSqsEQx18fuHPBb+R0h8nYPyY+e9uVtTuHlE2wHwAjrJoc6YBBK4a7CpKA==
   dependencies:
     "@hotwired/stimulus-webpack-helpers" "^1.0.1"
+    "@types/webpack-env" "^1.16.4"
     acorn "^8.0.5"
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-"@symfony/ux-turbo@file:vendor/symfony/ux-turbo/Resources/assets":
+"@symfony/stimulus-bundle@file:vendor/symfony/stimulus-bundle/assets":
+  version "1.0.0"
+
+"@symfony/ux-turbo@file:vendor/symfony/ux-turbo/assets":
   version "0.1.0"
 
 "@symfony/webpack-encore@^2.0.0":
@@ -1153,6 +1157,11 @@
   integrity sha512-f0KEEe05NvUnat+boPTZ0dgaLZ4SfSouXUgv5noUiefG2ajgKjmETo9ZJyuqsl7dfl2aHlLJUiki6B4ZYldiiw==
   dependencies:
     "@types/node" "*"
+
+"@types/webpack-env@^1.16.4":
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.18.2.tgz#0264bc30c0c4a073118ce5b26c5ef143da4374df"
+  integrity sha512-BFqcTHHTrrI8EBmIzNAmLPP3IqtEG9J1IPFWbPeS/F0/TGNmo0pI5svOa7JbMF9vSCXQCvJWT2gxLJNVuf9blw==
 
 "@types/ws@^8.5.1":
   version "8.5.3"

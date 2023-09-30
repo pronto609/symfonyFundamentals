@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="51a181a0-f18b-4c0b-af68-80f17611b5be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +163,7 @@
       <workItem from="1695452691774" duration="1521000" />
       <workItem from="1695454219776" duration="17613000" />
       <workItem from="1695618995815" duration="21031000" />
-      <workItem from="1695801638035" duration="2299000" />
+      <workItem from="1695801638035" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="commit new dependancies">
       <created>1695459124288</created>
